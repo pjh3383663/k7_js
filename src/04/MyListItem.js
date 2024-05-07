@@ -18,7 +18,7 @@ export default function MyListItem({title, imgUrl, content}) {
             <div>
                 {content}
             </div>
-            <div>
+            <div className="flex justify-end items-center p-2">
                 <span onClick={handleCount}>💖</span>
                 <span> 좋아요 </span>
                 <span>{n}</span>
