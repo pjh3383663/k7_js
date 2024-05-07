@@ -6,6 +6,7 @@ export default function Mylist() {
     const tags = MyListData.map(item => 
                                 <img src = {item.imgUrl} />);
     
+                               
     
   return (
     <div>
